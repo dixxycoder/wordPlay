@@ -48,13 +48,12 @@ class ViewController: UIViewController
     
     @IBOutlet weak var textField: UITextField!
     
-    
+    var place = " "
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         textField.resignFirstResponder()
-
         
 //MARK: MVP1 / lable "uncle"
         lableOne.text = "My uncle wants to go the ______."
@@ -65,7 +64,9 @@ class ViewController: UIViewController
     {
         let nextViewController = segue.destination as! WordController
     
-        nextViewController.place1 = " "
+        place = textField.text ?? ""
+        
+        nextViewController.place1 = place
     
     }
 }
