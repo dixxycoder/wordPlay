@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		252C5B382729B3B50060F4FC /* WordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252C5B372729B3B50060F4FC /* WordController.swift */; };
 		25EED493272853D40080FF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EED492272853D40080FF87 /* AppDelegate.swift */; };
 		25EED495272853D40080FF87 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EED494272853D40080FF87 /* SceneDelegate.swift */; };
 		25EED497272853D40080FF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EED496272853D40080FF87 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		252C5B372729B3B50060F4FC /* WordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordController.swift; sourceTree = "<group>"; };
 		25EED48F272853D40080FF87 /* wordPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EED492272853D40080FF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25EED494272853D40080FF87 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				25EED494272853D40080FF87 /* SceneDelegate.swift */,
 				25EED496272853D40080FF87 /* ViewController.swift */,
 				25EED498272853D40080FF87 /* Main.storyboard */,
+				252C5B372729B3B50060F4FC /* WordController.swift */,
 				25EED49B272853D50080FF87 /* Assets.xcassets */,
 				25EED49D272853D50080FF87 /* LaunchScreen.storyboard */,
 				25EED4A0272853D50080FF87 /* Info.plist */,
@@ -141,6 +144,7 @@
 				25EED497272853D40080FF87 /* ViewController.swift in Sources */,
 				25EED493272853D40080FF87 /* AppDelegate.swift in Sources */,
 				25EED495272853D40080FF87 /* SceneDelegate.swift in Sources */,
+				252C5B382729B3B50060F4FC /* WordController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
