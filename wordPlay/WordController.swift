@@ -23,6 +23,25 @@ class WordController: UIViewController
         super.viewDidLoad()
         
         labelTwo.text = "My uncle wants to go \(place3) to the \(place2) \(place1)."
+        
+        //background
+        assignbackground()
+        
+       
     }
     
+    // image for background.
+    func assignbackground()
+    {
+            let background = UIImage(named: "danald duck")
+
+            var imageView : UIImageView!
+            imageView = UIImageView(frame: view.bounds)
+        imageView.contentMode =  UIView.ContentMode.scaleAspectFill
+            imageView.clipsToBounds = true
+            imageView.image = background
+            imageView.center = view.center
+            view.addSubview(imageView)
+            self.view.sendSubviewToBack(imageView)
+    }
 }
