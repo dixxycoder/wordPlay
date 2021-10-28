@@ -42,8 +42,20 @@
                                     <segue destination="hCM-j7-fgF" kind="show" id="Nhm-e4-6nJ"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8Xw-Xg-K7W">
-                                <rect key="frame" x="107" y="431" width="200" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="adiective" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FXm-eH-UPd">
+                                <rect key="frame" x="107" y="350" width="200" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="verb" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t3K-v2-HSa">
+                                <rect key="frame" x="107" y="405" width="200" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="noun (where to)" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8Xw-Xg-K7W">
+                                <rect key="frame" x="102" y="291" width="200" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -54,14 +66,16 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Nu-O8-5pE"/>
                     <connections>
+                        <outlet property="adjectiveText" destination="FXm-eH-UPd" id="9B1-O8-uhH"/>
                         <outlet property="lableOne" destination="dPi-26-euD" id="zyE-fr-7da"/>
                         <outlet property="textField" destination="8Xw-Xg-K7W" id="xpU-SO-ViT"/>
+                        <outlet property="verbText" destination="t3K-v2-HSa" id="eVu-Ra-4cw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="bE0-86-fg1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="941" y="54"/>
+            <point key="canvasLocation" x="940.57971014492762" y="53.571428571428569"/>
         </scene>
         <!--Word Controller-->
         <scene sceneID="Jvb-2u-5i0">

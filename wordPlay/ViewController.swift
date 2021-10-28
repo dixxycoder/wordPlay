@@ -46,28 +46,45 @@ class ViewController: UIViewController
     // Outlets
     @IBOutlet weak var lableOne: UILabel!
     
+    //TextField
+    //MVP
     @IBOutlet weak var textField: UITextField!
+    //STRETCH 1
+    @IBOutlet weak var adjectiveText: UITextField!
+    @IBOutlet weak var verbText: UITextField!
     
+    
+    //MVP
     var place = " "
+    //STYRETCH 1
+    var placeA = " "
+    var placeV = " "
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         textField.resignFirstResponder()
         
-//MARK: MVP1 / lable "uncle"
-        lableOne.text = "My uncle wants to go the ______."
+//MARK: MVP
+        lableOne.text = "My uncle wants to go to the ______."
 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let nextViewController = segue.destination as! WordController
-    
-        place = textField.text ?? ""
+        //MVP
+        place = textField.text ?? " "
+        //STRETCH 1
+        placeA = adjectiveText.text ?? " "
+        placeV = verbText.text ?? " "
         
+        //MVP
         nextViewController.place1 = place
-    
+        //STRETCH 1
+        nextViewController.place2 = placeA
+        nextViewController.place3 = placeV
     }
 }
 
