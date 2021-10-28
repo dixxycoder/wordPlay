@@ -46,6 +46,7 @@ class ViewController: UIViewController
     // Outlets
     @IBOutlet weak var lableOne: UILabel!
     
+//MARK: MVP & 1
     //TextField
     //MVP
     @IBOutlet weak var textField: UITextField!
@@ -53,7 +54,7 @@ class ViewController: UIViewController
     @IBOutlet weak var adjectiveText: UITextField!
     @IBOutlet weak var verbText: UITextField!
     
-    
+//MARK: MVP & 1
     //MVP
     var place = " "
     //STYRETCH 1
@@ -71,6 +72,7 @@ class ViewController: UIViewController
 
     }
     
+//MARK: MVP & 1
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
         let nextViewController = segue.destination as! WordController

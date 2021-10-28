@@ -11,16 +11,18 @@ class WordController: UIViewController
 {
     //Outlets
     @IBOutlet weak var labelTwo: UILabel!
-    //MVP
-    var place1 = " "
+
+//MARK: MVP & 1
+    var place1 = " " // N
     //STRETCH 1
-    var place2 = " "
-    var place3 = " "
+    var place2 = " " // A
+    var place3 = " " // V
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        labelTwo.text = "My uncle wants to go to the \(place1)."
+        labelTwo.text = "My uncle wants to go \(place3) to the \(place2) \(place1)."
     }
     
 }
