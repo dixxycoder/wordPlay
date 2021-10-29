@@ -88,5 +88,5 @@ class ViewController: UIViewController
         nextViewController.place2 = placeA
         nextViewController.place3 = placeV
     }
+    
 }
-
